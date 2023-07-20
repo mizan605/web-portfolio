@@ -16,11 +16,11 @@ body{
 .left-half h2 span{
     color:#E4A122;
 }
-.right-half{
+.top-banner .right-half{
     float:right;
     padding-right:50px;
 }
-.right-half img{
+.top-banner .right-half img{
     width: 500px;
     height: 500px;
 }
@@ -28,9 +28,94 @@ body{
     height:500px;
     background-image:url(images/top-banner.png) ;
     background-repeat: no-repeat;
+    padding-top: 50px;
 }
-.left-half .button{
-    padding: 10px 20px;
-    background-image: linear-gradient(orange, yellow);
+.left-half a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(#FF9566, #FF7648);
     border:1px solid orange;
+    border-radius: 10px;
+    color:aliceblue;
+}
+.left-half-middle img{
+    width:500px;
+    height:500px;
+    padding-left: 50px;
+    width:40%;
+    float: left;
+}
+.right-half-middle{
+    float:right;
+    width:50%;
+    padding-right: 30px;
+}
+.right-half-middle h1{
+    font-size: 40px;
+}
+.right-half-middle h3{
+    font-size: 30px;
+}
+.right-half-middle p{
+    margin-bottom: 35px;
+    margin-right: 90px;
+}
+.right-half-middle a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(#FF9566, #FF7648);
+    border:1px solid orange;
+    border-radius: 10px;
+    color:aliceblue;
+    
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    height:100%;
+    
+ }
+.experience-area h3{
+   color:#FFCF67; 
+   
+}
+.full-stack{
+    width:45%;
+    margin-left: 50px;
+    float: left;
+    height:80%;
+    border-left:7px solid orange;
+    
+}
+.baby-web{
+    width:45%;
+    margin-right: 50px;
+    float: right;
+    height:80%;
+    border-left:7px solid orange;
+}
+.single-area1{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+ 
+    padding:15px;
+}
+.single-area2{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height:80%;
+    padding:15px;
+}
+.footer{
+    margin-top: 350px;
+
+   
+}
+
+.footer p{
+    text-align: center;
 }
